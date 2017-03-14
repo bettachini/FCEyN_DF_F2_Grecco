@@ -1,0 +1,95 @@
+\documentclass[11pt,spanish,a4paper]{article}
+% Versión 1er cuat 2015 Víctor Bettachini < bettachini@df.uba.ar >
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{units}
+\usepackage{siunitx}
+\usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{ {./graphs/} {../}}
+
+\voffset-3.5cm
+\hoffset-3cm
+\setlength{\textwidth}{17.5cm}
+\setlength{\textheight}{27cm}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}
+\fancyfoot{{\tiny \textcopyright Departamento de Física, FCEyN, UBA}}
+\fancyfoot[C]{ {\tiny Actualizado al \today} }
+\fancyfoot[RO, LE]{Pág. \thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\begin{document}
+\begin{center}
+    \textsc{\large Física 2 (Físicos)} - Prof. Hernán Grecco - 1"er cuat. 2015\\
+	\textsc{\large Guía 0:} Repaso de matemática
+\end{center}
+
+\begin{enumerate}
+
+\item Desarrollar a 2"o orden:
+\begin{enumerate}
+	\item \( \sqrt{a^{2}+x^{2}} \) alrededor de \( x=0 \),  \( x\ll a \)
+	\item \( \left(a^{2}+x^{2}\right)^{-\frac{1}{2}} \) alrededor de \(x=0 \), \(x \ll a \)
+	\item \( \sen(kx) \) alrededor de \(x=0 \), \(kx \ll 1 \)
+	\item \( \sen\left[k(x+d)\right] \) a orden 0, alrededor de \(x= x_{0} \) ¿Qué condición debe pedir?
+	\item \( \mathrm{e}^{kx} \) alrededor de \(x=0 \), \(kx \ll 1 \)
+	\item \( \left(a+x\right)^{-1} \) alrededor de \(x=0 \), \(x\ll a \)
+\end{enumerate}
+
+\item Integrar
+\begin{enumerate}
+	\item \(\int_{a}^{b} \mathrm{e}^{cx+d}\, \mathrm{d}x \)
+	\item \(\int_{a}^{b} \cos\left(kx+\varphi\right)\, \mathrm{d}x\)
+	\item \(\int_{a}^{b} x \cos\left(kx+\varphi\right)\, \mathrm{d}x \)
+	\item \(\int_{a}^{b} \mathrm{e}^{cx+d} \cos\left(kx+\varphi\right)\, \mathrm{d}x\)
+	\item \(\int_{a}^{b} \mathrm{e}^{cx+d} \left(\alpha+\beta x+\gamma x^{2}\right)\, \mathrm{d}x\)
+\end{enumerate}
+
+\item Graficar esquemáticamente y hallar los ceros
+\begin{enumerate}
+	\item \(\mathrm{e}^{cx+d} \cos\left(kx+ \varphi\right) \)
+	\item \(\mathrm{e}^{cx+d} \sen\left(kx+ \varphi\right) \)
+\end{enumerate}
+
+\item Probar que, dadas las constantes reales \(A_{1} \), \(A_{2} \), \(\varphi_{1} \) y \(\varphi_{2} \), existen constantes \(A \) y \( \varphi \) tal que se cumple la siguiente igualdad:
+\[
+A_{1}\cos\left(kx+\varphi_{1}\right)+A_{2}\cos\left(kx+\varphi_{2}\right)=A\cos\left(kx+\varphi\right)
+\]
+
+\item Discutir si es posible satisfacer la siguiente igualdad. En caso de que lo sea, hallar \(A \), \(\omega \) y \(\varphi \) en función de \(A_{1} \), \(A_{2} \), \(\varphi_{1} \),  \(\varphi_{2} \), \(\omega_1 \) y \(\omega_2 \)
+\[
+A_{1}\cos\left(\omega_1 t+\varphi_{1}\right)+A_{2}\cos\left(\omega_2 t+ \varphi_{2}\right)= A\cos\left(\omega t+ \varphi\right)
+\]
+
+\item Discutir, en función del parámetro (\(\lambda \)), el siguiente sistema:
+\begin{align*}
+x+ 2y+ \lambda z & =-3\\
+3x- 2y- 4z & = -\lambda\\
+-7x+ 2y+ 4z & = -2
+\end{align*}
+Resolver cuando sea posible.
+
+\item Encuentre para \(z= \left| z \right|\mathrm{e}^{i \theta} \) su parte real (\( \Re\mathfrak{e}\, z\)), módulo (\( \left| z \right| \)), fase (\( \theta \)) y su conjugado (\( \bar{z} \))
+\begin{enumerate}
+	\item \(z=(a+ i b)^{-1} \)
+	\item \(z=\rho \mathrm{e}^{i \phi} \mathrm{e}^{i \omega t} \)
+	\item \(z= \mathrm{e}^{a+ i b} \)
+	\item \(z= \mathrm{e}^{i \varphi}+ \mathrm{e}^{i \phi} \)
+	\item \(z= A \mathrm{e}^{i \varphi}+ B \mathrm{e}^{i \phi} \)
+\end{enumerate}
+siendo \(A \), \(B \), \(\rho \), \(\varphi \) y \(\phi \) reales.
+
+\end{enumerate}
+
+\end{document}

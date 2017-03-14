@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="203.42007"
+   height="68.168213"
+   id="svg4140"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Documento nuevo 3">
+  <defs
+     id="defs4142" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="101.71003"
+     inkscape:cy="34.08728"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="563"
+     inkscape:window-height="411"
+     inkscape:window-x="800"
+     inkscape:window-y="8"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4145">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-248.28997,-498.28125)">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 248.75,547.92487 202.5,0"
+       style="fill:none;stroke:#000000;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:1.875, 1.875;stroke-dashoffset:0"
+       id="path198" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 357.425,504.34987 c 0,-3.15 -2.55,-5.625 -5.625,-5.625 -3.15,0 -5.625,2.475 -5.625,5.625 0,3.075 2.475,5.625 5.625,5.625 3.075,0 5.625,-2.55 5.625,-5.625 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.90000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+       id="path200" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 248.75,536.67487 0,22.5 m 202.5,-22.5 0,22.5 m -202.5,-11.25 c 2.775,-7.5 5.625,-15 22.5,-22.5 16.875,-7.5 65.625,-18.75 78.75,-22.5 m 101.25,45 c -2.85,-7.5 -5.625,-15 -22.5,-22.5 -16.875,-7.5 -65.625,-18.75 -78.75,-22.5"
+       style="fill:none;stroke:#000000;stroke-width:0.90000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+       id="path202" />
+    <text
+       style="font-size:15px"
+       y="566.44946"
+       x="325.25"
+       id="text208">
+      <tspan
+         style="font-size:15px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Times New Roman;-inkscape-font-specification:TimesNewRoman"
+         x="325.25 334.40302"
+         y="566.44946"
+         sodipodi:role="line"
+         id="tspan210">L</tspan>
+    </text>
+    <text
+       style="font-size:15px"
+       y="521.44946"
+       x="347.75"
+       id="text212">
+      <tspan
+         style="font-size:15px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Times New Roman;-inkscape-font-specification:TimesNewRoman"
+         x="347.75 359.30301"
+         y="521.44946"
+         sodipodi:role="line"
+         id="tspan214">m</tspan>
+    </text>
+  </g>
+</svg>

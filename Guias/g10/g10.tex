@@ -1,0 +1,101 @@
+\documentclass[11pt,spanish,a4paper]{article}
+% Versión 1er cuat 2014 Víctor Bettachini < bettachini@df.uba.ar >
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{units}
+\usepackage{siunitx}
+\usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{ {./graphs/} {../}}
+
+\voffset-3.5cm
+\hoffset-3cm
+\setlength{\textwidth}{17.5cm}
+\setlength{\textheight}{27cm}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[C]{ {\tiny Actualizado al \today} }
+\fancyfoot[RO, LE]{Pág. \thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\begin{document}
+\begin{center}
+	\textsc{\large Física 2 (Físicos)} - Prof. Hernán Grecco\\
+	\textsc{\large Primer Cuatrimestre - 2014}\\
+	\textsc{\large Guía 10:} Difracción por un sistema simple
+\end{center}
+
+% \emph{LOS EJERCICIOS MARCADOS CON UN ASTERISCO (\textbf{*}) SON OPCIONALES}\\
+
+% \textbf{Difracción por objectos sencillos}
+
+
+\begin{enumerate}
+
+\item Una ranura de ancho \( D \) es iluminada por una onda plana incidente perpendicularmente al plano de la ranura, observándose la figura de difracción en una pantalla ubicada a una distancia \( L \).
+	\begin{enumerate}
+		\item ¿A qué distancia debe ubicarse la pantalla para que valga la aproximación de Fraunhofer?
+		\item Estime dichas distancias para ranuras de ancho \SI{10}{\( \mu m \)}, \SI{100}{\( \mu m \)} y \SI{1}{mm}, para luz visible.
+		\item ¿Para qué ranuras y distancias se cumplen condiciones equivalentes con ondas de sonido?
+		\item \label{ant_d} Para alguno de los casos anteriores calcule y grafique como cambia la distribución de intensidades si la onda incide con un ángulo de \SI{10}{\(^\circ\)} respecto de la normal al plano de la ranura.
+		\item Ídem. \ref{ant_d}, si la ranura se ilumina con una fuente puntual ubicada a una distancia \( L' \).
+	\end{enumerate}
+	
+
+\item Delante de la ranura del problema anterior se ubica una lente de distancia focal \( f \).
+	\begin{enumerate}
+		\item Calcule el perfil de intensidad en una pantalla plana ubicada en el plano focal de la	lente.
+		\item Lo mismo si la onda incide con un ángulo de \SI{10}{\(^\circ\)}.
+		\item Si inciden ambas ondas, ¿qué condiciones debe cumplir la lente para que las manchas respectivas queden nítidamente separadas?
+		\item ¿Con qué precisión debe ubicarse la pantalla en el plano focal para que valgan los resultados de los puntos anteriores?
+	\end{enumerate}
+
+
+\item Una fuente puntual está ubicada a una distancia s de una lente de distancia focal \( f \).
+	\begin{enumerate}	
+		\item Calcule la función de onda en el plano imagen.
+		\item Calcule el perfil de intensidad.
+			¿Qué información se perdió al medir la intensidad?
+	\end{enumerate}	
+
+	
+\item Se tiene una onda monocromática de perfil Gaussiano que en \( z= 0 \) tiene la forma
+	\[
+		\Psi( x, y, t ) = A \mathrm{e}^{ i \omega t } \mathrm{e}^{- ( x + y ) / 2 \sigma }.
+	\]
+	\begin{enumerate}	
+		\item Calcular en la aproximación paraxial (integral de Kirchhoff) la función de onda en un plano \( z=\mathrm{cte.} \) cualquiera.
+		\item Calcular el perfil de intensidad en dicho plano.
+			¿Qué información se pierde al medir la intensidad?
+		\item Con el dato de la función de onda en el plano \( z \), calcule nuevamente la función de onda en un plano \( z’ \) posterior.
+			Notar como se recupera el ya calculado originalmente para todo \( z \).
+			¿Porqué no puedo calcularlo si conozco solamente el perfil de intensidades?
+	\end{enumerate}	
+
+		
+\item En el plano \( z \) del problema anterior se ubica una lente.
+	\begin{enumerate}	
+		\item Calcular la función de onda ahora en un plano a una distancia \( z’ \) de la lente.
+			Escriba la expresión integral y resuelva suponiendo la lente de diámetro mucho mayor que el haz Gaussiano.
+			Discuta como cambia según la ubicación de la lente.
+			¿Como es el perfil de intensidades en el foco de la lente?
+			¿Para qué valor de \( z \) dicho perfil es mas angosto?
+		\item Para el problema anterior, encuentre la nueva cintura del haz (el plano de mínimo ancho espacial).
+		\item Discuta el caso particular en que \( z= f \) (lente ubicada con el foco en la cintura del haz).
+		\item ¿Como cambia el punto a si la lente tiene diámetro mucho menor que el diámetro característico del haz.
+	\end{enumerate}	
+
+\end{enumerate}	
+
+\end{document}

@@ -1,0 +1,134 @@
+\documentclass[11pt,spanish,a4paper]{article}
+% Versión 1er cuat 2015 Víctor Bettachini < bettachini@df.uba.ar >
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{units}
+\usepackage{siunitx}
+\usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{ {./graphs/} {../}}
+
+\voffset-3.5cm
+\hoffset-3cm
+\setlength{\textwidth}{18cm}
+\setlength{\textheight}{27cm}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}
+\fancyfoot{{\tiny \textcopyright Departamento de Física, FCEyN, UBA}}
+\fancyfoot[C]{{\tiny Actualizado al \today}}
+\fancyfoot[RO, LE]{Pág. \thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\begin{document}
+\begin{center}
+    \textsc{\large Física 2 (Físicos)} - Prof. Hernán Grecco - 1"er cuat. 2015\\
+	\textsc{\large Guía 8:}	Ondas vectoriales: polarización
+\end{center}
+
+% Polarización: Antes de notación matricial una rotación "a mano". Un análisis "parados" en los ejes de polarización. (ej.3) Un ej. ¿Que pasa si rota tal elemento?
+
+% \emph{LOS EJERCICIOS MARCADOS CON UN ASTERISCO (\textbf{*}) SON OPCIONALES}\\
+
+\begin{enumerate}
+
+\item Un par de polarizadores lineales están ubicados uno detrás de otro frente a una fuente de luz no polarizada.
+	Sin recurrir al formalismo de matrices de rotación describa que sucede al rotar uno u otro.
+
+
+\item Una onda inicialmente polarizada según \(x\) y viajando según \(z\) positivo incide en un polarizador cuyo eje de trasmisión forma un ángulo \(\alpha\) con el eje \(x\), y luego pasa por un segundo polarizador que forma un ángulo \(\beta\) con el primero.
+¿Cuál es la expresión de la onda transmitida en los ejes originales?
+¿Y en los ejes del segundo polarizador?
+¿Cómo son las respectivas matrices que describen al sistema?
+¿Cuál es la intensidad media transmitida por el sistema?
+
+
+\item Se tiene un polarizador imperfecto con una matriz
+% \[
+\(
+	\begin{bmatrix}
+		t_x  & \epsilon \\
+		\epsilon & \delta
+	\end{bmatrix}
+\)
+% \]
+con \(t_x \simeq 1\), \(\epsilon \ll 1 \) y \(\delta \ll 1 \).
+\begin{enumerate}
+	\item Hallar la matriz del polarizador si forma un ángulo \(\theta \) con el eje x.
+	\item \label{ant} Hallar la energía transmitida si se incide con luz linealmente polarizada según x.
+	\item Ídem. \ref{ant} si incide polarizada según y.
+\end{enumerate}
+
+
+\item Se tienen \(N\) polarizadores sucesivamente rotados en ángulos \(\pi/ 2N\), encontrar la matriz del sistema.
+Hallar el límite para \(N\) tendiendo a \(\infty\).
+Calcular la intensidad transmitida.
+
+
+\item Una onda de polarización arbitraria incide sobre un espejo plano y se refleja sobre si misma.
+¿Cómo escribe la onda reflejada cambiando al sistema \(z= -z\) de modo que nuevamente se propague según \(z\) positivo.
+Note que al invertir \(z\), debe invertir algún otro eje para mantener las orientaciones relativas de los ejes.
+¿Cómo es ahora la matriz de un polarizador en este nuevo sistema?
+¿Y una lámina de onda?
+
+
+\item Mostrar que el versor para una onda polarizada circularmente solo cambia en una fase ante una rotación de coordenadas.
+¿Cuánto cambia la fase?
+Explique.
+
+
+\item Encontrar la matriz de un polarizador seguido de una lámina de cuarto de onda orientada con su eje a un ángulo \( \alpha \) respecto del eje del polarizador.
+¿Cual es el estado de polarización de la onda transmitida?
+¿Depende del estado de polarización de la incidente?
+Explique.
+Calcule la intensidad transmitida en función de \( \alpha \).
+
+
+\item Al sistema anterior se le agrega un espejo que refleja la onda sobre si misma.
+¿Para qué ángulo \( \alpha \) la transmisión del sistema a la vuelta es nula y para cuál es máxima?
+
+
+\item Se realizan los siguientes experimentos: entre dos polarizadores rotados un ángulo \( \alpha \) se colocan alternativamente un medio con actividad óptica que rota la polarización un ángulo \( \beta \) y un rotador de Faraday que también rota ese mismo ángulo.
+Calcule para cada caso la transmisión del sistema y para que valor de \( \beta \) es máxima.
+Para ese valor de \( \beta \) se refleja la luz nuevamente sobre el sistema.
+Calcule ahora la intensidad devuelta para cada caso.
+¿En algún caso se puede hacer nula?
+
+
+\item Se tiene un haz de luz y se quiere conocer su estado de polarización (el tipo de polarización y la orientación respecto de los ejes del laboratorio) realizando experimentos.
+Se cuenta con el siguiente material: un detector que mide intensidad de luz, un polarizador lineal con el eje de transmisión paralelo a la mesa óptica (la mesa sobre la que se trabaja), una lámina de media onda, y una lámina de cuarto de onda.
+Las dos últimas están montadas en soportes que permiten girarlas, y se conoce la ubicación de los ejes ordinarios.
+Describa un procedimiento experimental que contemple todos los casos que puedan presentarse.
+
+
+\item  Incide un haz de luz linealmente polarizada sobre la superficie de separación de dos medios transparentes.
+¿Qué condiciones deben cumplirse para que ese haz se transmita totalmente hacia el segundo medio?
+
+
+\item  Un haz de luz circularmente polarizada en sentido horario incide con el ángulo de polarización sobre la superficie de separación de dos medios transparentes.
+¿Cuál es el estado de polarización del haz reflejado?
+¿Y del transmitido?
+Justifique.
+	   
+
+\item Sobre una superficie de separación entre dos medios de índices \(n_1 \) y \(n_2 \) (con \(n_1 > n_2 \) ), incide un rayo desde el medio \(n_1 \).
+	\begin{enumerate}
+		\item ¿Cuál es el ángulo de incidencia crítico a partir del cual se produce reflexión total?
+		\item ¿Cuál es el ángulo de polarización?
+		\item ¿Es posible que el ángulo de polarización sea mayor que el ángulo crítico?
+			Justifique físicamente y analíticamente.
+	\end{enumerate}
+
+
+
+\end{enumerate}
+\end{document}

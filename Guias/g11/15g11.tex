@@ -1,0 +1,101 @@
+\documentclass[11pt,spanish,a4paper]{article}
+% Versión 1er cuat 2015 Víctor Bettachini < bettachini@df.uba.ar >
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{units}
+\usepackage{siunitx}
+\usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{ {./graphs/} {../}}
+
+\voffset-3.5cm
+\hoffset-3cm
+\setlength{\textwidth}{17.5cm}
+\setlength{\textheight}{27cm}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}
+\fancyfoot{{\tiny \textcopyright Departamento de Física, FCEyN, UBA}}
+\fancyfoot[C]{{\tiny Actualizado al \today}}
+\fancyfoot[RO, LE]{Pág. \thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\begin{document}
+\begin{center}
+    \textsc{\large Física 2 (Físicos)} - Prof. Hernán Grecco - 1"er cuat. 2015\\
+	\textsc{\large Guía 11:} Difracción por objectos periódicos
+\end{center}
+
+% \emph{LOS EJERCICIOS MARCADOS CON UN ASTERISCO (\textbf{*}) SON OPCIONALES}\\
+
+% \textbf{Difracción por objectos periódicos}
+
+\begin{enumerate}	
+
+	\item En una rendija de ancho \( D\) se ubican sucesivamente distintas diapositivas de transmisión \( t(x,y) \).
+		Calcular para cada caso el perfil de intensidades en un plano ubicado suficientemente lejos como para que valga la aproximación de Fraunhofer.
+		Discutir cualitativamente los resultados.
+		Proponga para cada caso como construirlas.
+	\begin{enumerate}	
+		\item \( t(x,y)= \cos{ (\alpha x) } \)
+		\item \( t(x,y)= 2 \cos{ (\alpha x) } \)
+		\item \( t(x,y)= \mathrm{e}^{i \alpha x} \)
+		\item \( t(x,y)= \mathrm{e}^{-x^2/ d^2 } \) con \( d \ll D \)
+	\end{enumerate}	
+
+		
+\item \label{old_2} Con una onda plana se ilumina en forma normal una diapositiva de estructura periódica.
+	Si se iluminan \( N \) períodos, calcular en la aproximación de Fraunhofer la amplitud y la intensidad en una pantalla ubicada a una distancia \( L \) de la diapositiva, para cada una de las siguientes transmisiones de las mismas:
+	\begin{enumerate}	
+		\item \( t(x)= \cos{ (K_0 x) } \)
+		\item \( t(x)= 1+ \cos{ (K_0 x) } \)
+		\item \( t(x)= 1+ \sen{ (K_0 x) } \)
+		\item \( t(x)= 1+ \cos{ (K_0 x) }+ \sen{ (K_0 x) } \)
+		\item \( t(x)= 1+ \cos{ (K_0 x) }+ \sen{ (2 K_0 x) } \)
+	\end{enumerate}	
+	Discutir las similitudes, diferencias y algún sistema sencillo para generarlas.
+	
+	
+\item \label{old_3} \( N \) ranuras de ancho \( a \) y separación \( b \) son iluminadas uniformemente.
+	Calcular la	figura de difracción en el campo lejano.
+	Discutir como cambia el patrón de intensidades si se cambia el ángulo con que se incide sobre la red.
+	¿Qué pasa si inciden dos longitudes de onda distintas, y en qué casos se distinguen los dos máximos?
+	
+	
+\item Para los dos ejercicios anteriores de ejemplos alternativos de redes que den el mismo	patrón de intensidad.
+	
+	
+\item \label{old_5} ¿Como cambian las figuras de difracción si en los ejercicios \ref{old_2} y \ref{old_3} se ilumina con un haz Gaussiano?
+	¿Qué es propio de la forma de iluminar, qué de la periodicidad de la transparencia y qué de la forma particular que se repite periódicamente?
+	
+	
+\item Repita los ejercicios anteriores (\ref{old_2}-\ref{old_5}) para el caso en que se intercala una lente después de la red.
+	¿Y si se intercala antes?
+	
+
+\item Un espejo tiene una superficie ondulada de modo que la fase de la onda reflejada varía según \( \varphi= \delta \cos{ (K_0 x) } \).
+	Si \( \delta \ll 1 \), calcule la onda difractada en la reflexión.
+
+	
+\item Se tiene una estructura periódica con una transmisión
+	\[
+		t(x,y)= \left[ 1 + \cos{ (K_1 x) } \right] \left[ 1 + \cos{ (K_2 y ) } \right],
+	\]
+	calcular el perfil de intensidades difractado en la aproximación de campo lejano.
+
+	
+\item Calcular la dirección en que aparecen los máximos en una estructura bidimensional en que \( \vec{a} = \frac{\lambda}{3} \hat{x} \) y \( \vec{b} = \frac{\lambda}{5} \hat{y} \).
+
+
+\end{enumerate}	
+
+\end{document}
